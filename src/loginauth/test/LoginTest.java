@@ -14,7 +14,7 @@ public class LoginTest {
 
         String hash =
                 PasswordUtil.hashPassword(
-                        "admin123");
+                        "karyawan123");
 
         System.out.println("Hash Password:");
         System.out.println(hash);
@@ -31,8 +31,8 @@ public class LoginTest {
 
         Pengguna user =
                 controller.login(
-                        "admin@mail.com",
-                        "admin123");
+                        "irfan@mail.com",
+                        "karyawan123");
 
         if (user != null) {
 
