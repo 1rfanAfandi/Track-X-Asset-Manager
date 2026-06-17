@@ -14,7 +14,7 @@ public class LoginTest {
 
         String hash =
                 PasswordUtil.hashPassword(
-                        "karyawan123");
+                        "admin123");
 
         System.out.println("Hash Password:");
         System.out.println(hash);
